@@ -1,2 +1,1 @@
-# NN-in-C-
-NN in C++
+Lambdaproton analysis RUN2 data, ALICE O2 environment
