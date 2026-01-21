@@ -34,14 +34,14 @@ class AliAODEvent;
 
     private:
 	
-	AliAODEvent* 		fAOD;
-    	TList*                  fOutputList;    //! output list
-        TH1F*                   fHistPt;        //! dummy histogram
-        TH1F*                   fHistNEvents;        //! dummy histogram
-        TH1F*                   fHistEta;        //! dummy histogram
-        TH1F*                   fHistPhi;        //! dummy histogram
+		AliAODEvent* 			fAOD;
+    	TList*                  fOutputList;    
+        TH1F*                   fHistPt;        
+        TH1F*                   fHistNEvents;        
+        TH1F*                   fHistEta;      
+        TH1F*                   fHistPhi;        
 
-        TH1F*                   fHistMult;        //! dummy histogram
+        TH1F*                   fHistMult;       
      
         
     	TH2F*                   fHistNsigma;       
@@ -64,7 +64,7 @@ class AliAODEvent;
 	   TH1F* fHistPtLambda;
 	   TH1F* fHistEtaLambda; 
 	   TH1F* fHistPhiLambda; 
-	   TH1F* fHistTrackOne;//mass of 1st daughter
+	   TH1F* fHistTrackOne;
 	   TH1F* fHistCosThetaLambda; 
 	   TH1F* fHistCosThetaLambda_with_cut;
 	   TH1F* fHistLambdasNbeforecutCosTheta;
