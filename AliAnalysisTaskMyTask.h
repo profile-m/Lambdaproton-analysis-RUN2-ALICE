@@ -42,7 +42,7 @@ class AliAODEvent;
         TH1F*                   fHistPhi;        //! dummy histogram
 
         TH1F*                   fHistMult;        //! dummy histogram
-        //--------
+     
         
     	TH2F*                   fHistNsigma;       
         TH2F*                   fHistdEdx; 
@@ -80,7 +80,7 @@ class AliAODEvent;
 	   TH1F*fHistMassXiMinus;
 	   TH2F* fHistMassXiPlusVsPt;
 	   TH2F*fHistMassXiMinusVsPt;
-	  //ArmentosPodolanski 
+	 
 	   TH2F*  fHistptvsalpha;
   
 		AliPIDResponse *        fPIDResponse;
