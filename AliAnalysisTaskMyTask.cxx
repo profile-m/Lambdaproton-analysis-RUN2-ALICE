@@ -662,7 +662,7 @@ if((cosTheta > -0.5) && (cosTheta < 0)) {
 }
 }
 
-     // mix my buffer pr-lam
+     // mix buffer proton lambda
        for (auto& vi: vv ){  //
         for (auto& ppi: pp) {   //
             for(auto& pi: p){
@@ -671,7 +671,7 @@ if((cosTheta > -0.5) && (cosTheta < 0)) {
                 Double_t mixedMass = mixedPair.M();
                 Double_t mixedCosTheta = mixedPair.CosTheta();
 
-Fill mixed histograms
+
 if(mixedCosTheta < -0.5) {
  cos0_mixed->Fill(mixedMass); }
 if(mixedCosTheta > -0.5 && mixedCosTheta < 0) {
