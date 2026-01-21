@@ -34,59 +34,55 @@ class AliAODEvent;
 
     private:
 	
-		AliAODEvent* 			fAOD;
-    	TList*                  fOutputList;    
-        TH1F*                   fHistPt;        
-        TH1F*                   fHistNEvents;        
-        TH1F*                   fHistEta;      
-        TH1F*                   fHistPhi;        
+	   AliAODEvent*  fAOD;
 
-        TH1F*                   fHistMult;       
-     
-        
-    	TH2F*                   fHistNsigma;       
-        TH2F*                   fHistdEdx; 
+       TList* fOutputList; 
 
-        TH2F* 			fHistDecayLengthVsPt; 
 
-	   TH2F* fHistdEdxVsP;
-	   TH1F* fHistCheck;    
-	   TH1F* fHistDCAv0;
-	   TH1F* fHistOpenAngle;
+       TH1F*  fHistPt;        
+       TH1F*  fHistNEvents;        
+       TH1F*  fHistEta;      
+       TH1F*  fHistPhi;        
+       TH1F*  fHistMult;          
+       TH2F*  fHistNsigma;       
+       TH2F*  fHistdEdx; 
+       TH2F*  fHistDecayLengthVsPt; 
 	   TH1F*  fHistPtP;
 	   TH1F*  fHistEtaP;
 	   TH1F*  fHistPhiP;
 	   TH1F*  fHistPx;
 	   TH1F*  fHistPy;
 	   TH1F*  fHistPz;
-	   TH2F* fHistPtPvsLength;
-	   TH1F* fHistInvMassLambda; 
-	   TH1F* fHistPtLambda;
-	   TH1F* fHistEtaLambda; 
-	   TH1F* fHistPhiLambda; 
-	   TH1F* fHistTrackOne;
-	   TH1F* fHistCosThetaLambda; 
-	   TH1F* fHistCosThetaLambda_with_cut;
-	   TH1F* fHistLambdasNbeforecutCosTheta;
-	   TH1F* fHistInvMassLambdap;
-	   TH1F* fHistPtlambdaproton;
-	   TH1F* fHistEtalambdaproton; 
-	   TH1F* fHistPhilambdaproton; 
-	   TH1F* fHistCosThetalambdaproton; 
-	   TH1F* fHistCosThetalambdaproton_with_cut;
-	   TH1F* fHistDecayLength;
-	
-	   TH1F* fHistMassXiPlus;
-	   TH1F*fHistMassXiMinus;
-	   TH2F* fHistMassXiPlusVsPt;
-	   TH2F*fHistMassXiMinusVsPt;
+	   TH2F*  fHistPtPvsLength;
+	   TH1F*  fHistInvMassLambda; 
+	   TH1F*  fHistDCAv0;
+	   TH1F*  fHistOpenAngle;
+	   TH1F*  fHistPtLambda;
+	   TH1F*  fHistEtaLambda; 
+	   TH1F*  fHistPhiLambda; 
+	   TH1F*  fHistTrackOne;
+	   TH1F*  fHistCosThetaLambda; 
+	   TH1F*  fHistCosThetaLambda_with_cut;
+	   TH1F*  fHistLambdasNbeforecutCosTheta;
+	   TH1F*  fHistInvMassLambdap;
+	   TH1F*  fHistPtlambdaproton;
+	   TH1F*  fHistEtalambdaproton; 
+	   TH1F*  fHistPhilambdaproton; 
+	   TH1F*  fHistCosThetalambdaproton; 
+	   TH1F*  fHistCosThetalambdaproton_with_cut;
+	   TH1F*  fHistDecayLength;
+	   TH1F*  fHistMassXiPlus;
+	   TH1F*  fHistMassXiMinus;
+	   TH2F*  fHistMassXiPlusVsPt;
+	   TH2F*  fHistMassXiMinusVsPt;
 	 
 	   TH2F*  fHistptvsalpha;
   
-		AliPIDResponse *        fPIDResponse;
+	  AliPIDResponse * 	 fPIDResponse;
 	
-	     AliAnalysisTaskMyTask(const AliAnalysisTaskMyTask&); // not implemented
-	        AliAnalysisTaskMyTask& operator=(const AliAnalysisTaskMyTask&); // not implemented
+	   AliAnalysisTaskMyTask(const AliAnalysisTaskMyTask&); 
+
+	        AliAnalysisTaskMyTask& operator=(const AliAnalysisTaskMyTask&);
 	        ClassDef(AliAnalysisTaskMyTask, 1);
 
 
