@@ -60,7 +60,7 @@
 //Constructor OR .h (Header File)
 
 
-typedef std::vector<double> v;
+using v = std::vector<double>;
 
 Int_t NLambdas =0;
 const double LambdaMass = 1.115; // GeV/c^2
